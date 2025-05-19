@@ -1,0 +1,64 @@
+# Custom Matplotlib Style Sheet (ppt14.mplstyle)
+
+# Font settings
+font.family: serif
+font.serif: cmr10
+mathtext.fontset: cm
+axes.formatter.use_mathtext: True
+
+# Figure size and DPI
+figure.figsize: 6.5, 2.6  # Width = 6.5 inches, Height = 6.5 * 0.4
+figure.dpi: 150
+savefig.dpi: 300
+figure.constrained_layout.use: True
+
+# Axes settings
+axes.labelsize: 13
+axes.labelpad: 5
+axes.titlesize: 14
+axes.linewidth: 0.6
+axes.edgecolor: 0.20
+axes.xmargin: 0
+axes.ymargin: 0
+axes.grid: True
+
+# Tick settings
+xtick.labelsize: 12
+#xtick.direction: in
+xtick.major.size: 4
+xtick.major.width: 0.7
+xtick.minor.visible: True
+xtick.minor.size: 2
+xtick.minor.width: 0.5
+#xtick.top: True
+
+ytick.labelsize: 12
+#ytick.direction: in
+ytick.major.size: 4
+ytick.major.width: 0.7
+ytick.minor.visible: True
+ytick.minor.size: 2
+ytick.minor.width: 0.5
+#ytick.right: True
+
+# Legend settings
+legend.fontsize: 10.5
+legend.loc: upper right
+
+# Line settings
+lines.linewidth: 1
+
+# Color cycle
+# Paul Tol's vibrant color palette
+axes.prop_cycle: cycler('color', ["0077BB", "EE7733", "CC3311", "009988", "33BBEE", "EE3377"])
+
+# Grid settings (if enabled)
+
+axes.grid.axis: both
+axes.grid.which: both
+
+grid.linewidth: 0.4
+grid.linestyle: -
+grid.alpha: 0.6
+
+axes.axisbelow: True
